@@ -18,7 +18,7 @@ Este é um projeto simples de um semáforo desenvolvido com HTML, CSS e JavaScri
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/semaforo-js.git
+    git clone https://github.com/guiribs/semaforo-js.git
     ```
 
 2. Navegue até o diretório do projeto:
