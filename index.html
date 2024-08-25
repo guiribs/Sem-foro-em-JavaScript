@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semáforo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="semaforo-container">
+        <div class="semaforo">
+            <div class="light red"></div>
+            <div class="light yellow"></div>
+            <div class="light green"></div>
+        </div>
+        <div class="buttons">
+            <button onclick="control('red')">Vermelho</button>
+            <button onclick="control('yellow')">Amarelo</button>
+            <button onclick="control('green')">Verde</button>
+            <button onclick="control('automatic')">Automático</button>
+        </div>
+    </div>
+
+    <script src="semaforo.js"></script>
+</body>
+</html>
